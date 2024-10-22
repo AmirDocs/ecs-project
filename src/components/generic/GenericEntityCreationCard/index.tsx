@@ -22,7 +22,7 @@ import { DEFAULT_NEW_ENTITY_ID } from '../../../configs';
 import { ContentEntityBase, EntityBase } from '../../../customTypes';
 import useEditMetadata from '../../../hooks/useEditMetadata';
 import { addTagToEntity, removeTagFromEntity } from '../../../utils/entityTag';
-import Textarea, { TextAreaProps } from '../../generic/Textarea';
+import Textarea, { TextAreaProps } from '../Textarea';
 import MetadataEditor from '../EntityMetadataEditor';
 import GenericCard from '../GenericCard';
 

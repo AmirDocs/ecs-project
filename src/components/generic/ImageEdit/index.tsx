@@ -24,7 +24,7 @@ import { FC, useCallback, useEffect, useState } from 'react';
 import { ImageUrlSchema } from '../../../customTypes';
 import imageStyles from '../../../styles/image';
 import getBase64 from '../../../utils/getBase64';
-import Input from '../../generic/Input';
+import Input from '../Input';
 import FileUpload from '../FileUpload';
 
 export interface ImageUploadProps {

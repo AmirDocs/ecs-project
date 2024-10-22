@@ -20,7 +20,7 @@ import { SelectProps } from '@cloudscape-design/components/select';
 import * as awsui from '@cloudscape-design/design-tokens';
 import { css } from '@emotion/react';
 import { FC, useMemo, useState, useRef } from 'react';
-import PriorityEdit from '..//PriorityEdit';
+import PriorityEdit from '../PriorityEdit';
 import { TemplateThreatStatement } from '../../../customTypes';
 
 export interface PriorityBadgeProps {

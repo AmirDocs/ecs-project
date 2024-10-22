@@ -17,7 +17,7 @@
 import { FC, useCallback, useEffect, useMemo, useState } from 'react';
 import { ControlLink, Control } from '../../../customTypes';
 import { useControlLinksContext } from '../../../contexts/ControlLinksContext/context';
-import ControlLookupComponent from '../../controls/ControlLookup';
+import ControlLookupComponent from '../ControlLookup';
 import { getControlProfileByName } from '../../../data/controlProfileProvider';
 import { useApplicationInfoContext } from '../../../contexts';
 

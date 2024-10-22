@@ -33,8 +33,8 @@ import { useWorkspacesContext } from '../../../contexts/WorkspacesContext';
 import { DataExchangeFormat, TemplateThreatStatement } from '../../../customTypes';
 import useImportExport from '../../../hooks/useExportImport';
 import useRemoveData from '../../../hooks/useRemoveData';
-import AddWorkspace from '../../workspaces/EditWorkspace';
-import FileImport from '../../workspaces/FileImport';
+import AddWorkspace from '../EditWorkspace';
+import FileImport from '../FileImport';
 
 export interface WorkspaceSelectorProps {
   embededMode: boolean;

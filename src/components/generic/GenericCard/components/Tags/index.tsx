@@ -24,7 +24,7 @@ import { FC, useCallback, useState } from 'react';
 import { TagSchema } from '../../../../../customTypes';
 import { useMobileMediaQuery } from '../../../../../hooks/useMediaQuery';
 import getMobileMediaQuery from '../../../../../utils/getMobileMediaQuery';
-import Input from '../../../../generic/Input';
+import Input from '../../../Input';
 
 export interface TagsProps {
   tags?: string[];
